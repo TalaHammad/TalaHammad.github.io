@@ -1,33 +1,38 @@
+header {
+    background-color: pink;
+    color:white;
+    padding: 20px 0;
+}
+
 .container {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.bigtext {
-    font-size: 128px;
-    padding-left: 100px;
-}
-
-.box-container {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.box {
-    background-color: black;
-    color: white;
-    width: 700px;
-    border-radius: 10px;
+h1 {
+    margin: 0;
 }
 
-.box p {
-    padding: 20px;
-    text-align: center;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add hover effect for navigation links */
+nav ul li a:hover {
+    text-decoration: underline;
 }
