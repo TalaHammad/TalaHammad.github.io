@@ -42,7 +42,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.mypic img {
+.me img {
     margin-top: 2%;
     margin-left: 8%;
     align-self: flex-start;
@@ -55,7 +55,7 @@ nav ul li a:hover {
     margin: 0 auto;
     padding: 20px 0;
     overflow-x: hidden;
-    alig
+    align-items: center;
 
 }
 
