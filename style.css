@@ -1,19 +1,25 @@
+html {
+    background-color: lavenderblush;
+}
+
 header {
     background-color: pink;
     color:white;
     padding: 20px 0;
 }
 
-.container {
+.pageheader {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h1 {
+h2 {
     margin: 0;
+   
 }
 
 nav ul {
@@ -29,10 +35,43 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
-/* Add hover effect for navigation links */
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+.mypic img {
+    margin-top: 2%;
+    margin-left: 8%;
+    align-self: flex-start;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.gallery {
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow-x: hidden;
+    alig
+
+}
+
+.gallery-container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.gallery-item img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
